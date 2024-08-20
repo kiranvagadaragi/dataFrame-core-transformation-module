@@ -26,7 +26,7 @@ This Python project is designed for performing various data transformation tasks
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/dataFrame-transformation-module.git
+   git clone https://github.com/your-username/dataFrame-core-transformation-module.git
    cd data-transformation-module
    
 2. Install the required Python packages:
