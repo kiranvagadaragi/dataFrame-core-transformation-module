@@ -27,7 +27,7 @@ This Python project is designed for performing various data transformation tasks
 
    ```bash
    git clone https://github.com/your-username/dataFrame-core-transformation-module.git
-   cd data-transformation-module
+   cd dataFrame-core-transformation-module
    
 2. Install the required Python packages:
    pip install pyspark
