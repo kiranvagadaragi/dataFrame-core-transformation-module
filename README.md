@@ -85,7 +85,7 @@ This Python project is designed for performing various data transformation tasks
 3.2 Initialize the transformation module and apply it to a DataFrame:
    ```python
     from pyspark.sql import SparkSession
-    from data_transformation_module import DataTransformationModule
+    from dataFrame-core-transformation-module import DataTransformationModule
     
     spark = SparkSession.builder.appName("DataTransformationExample").getOrCreate()
     input_df = spark.table("your_table_name")
