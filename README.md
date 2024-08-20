@@ -31,8 +31,7 @@ This Python project is designed for performing various data transformation tasks
    
 2. Install the required Python packages:
    pip install pyspark
-3. Usage
-   3.1 Define your transformations in a JSON configuration file:
+3. Define your transformations in a JSON configuration file:
      
    ```json
    {
@@ -82,7 +81,7 @@ This Python project is designed for performing various data transformation tasks
       ]
     }
    ```
-3.2 Initialize the transformation module and apply it to a DataFrame:
+4. Initialize the transformation module and apply it to a DataFrame:
    ```python
     from pyspark.sql import SparkSession
     from dataFrame_core_transformation_module import DataTransformationModule
