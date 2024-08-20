@@ -58,7 +58,27 @@ This Python project is designed for performing various data transformation tasks
           "options": {
             "override_column": false
           }
-        }
+        },         
+       {
+         "name": "Language Code Transformations",
+         "columns": ["billing_lang__c"],
+         "options": {
+           "codes_to_iso": {        
+             "E": "EN",
+             "J": "JP"
+           }
+         }
+       },
+       {
+         "name": "Handling Cross-System IDs",
+         "columns": ["sap_id__c"],
+         "options": {
+           "primary_system": "SAP",
+           "secondary_system": "Salesforce",
+           "sap_id_column": "sap_id__c",
+           "salesforce_id_column": "id"
+         }
+       }
       ]
     }
    ```
